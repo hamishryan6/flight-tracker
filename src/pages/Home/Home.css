@@ -1,0 +1,154 @@
+.Content__Container {
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+  padding: 32px;
+}
+
+.Flights__Main {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.Flights__Config {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+}
+
+.Flights__Container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Flights__Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Flights__Title {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.Flights__Header input {
+  padding: 16px 24px;
+  border-radius: 12px;
+  background-color: #FFF;
+  width: 320px;
+  color: rgba(100, 110, 133);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+h2 {
+  color: #1447CC;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%
+}
+
+.Flights__Results {
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 710px;
+}
+
+.Flights__List {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-radius: 0px 0px 16px 16px;
+  overflow: hidden;
+}
+
+.Flights__List__Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 144px;
+}
+
+.Flights__Results__Header {
+  display: grid;
+  grid-template-columns: 30px 54px 54px 76px 1fr 52px 124px 8px;
+  gap: 36px;
+  background-color: rgba(20, 71, 204, 0.08);
+  padding: 12px 24px;
+  align-items: center;
+}
+
+.Flights__Results__Cell {
+  color: #646E85;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.Page__Number__Main {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.Page__Number__Main>p {
+  width: 124px;
+  text-align: center;
+  color: #1D1E1F;
+}
+
+.Page__Number__Main>button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+}
+
+.Page__Number__Main>button:hover {
+  background-color: rgba(100, 110, 133, .12);
+}
+
+.Button__Disabled {
+  opacity: 0.6;
+}
+
+.Page__Number__Main>.Button__Disabled:hover {
+  background-color: transparent;
+}
+
+.Page__Number__Container {
+  margin-inline: auto;
+  display: flex;
+  gap: 12px;
+}
+
+.Page__Number {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  color: #1447CC;
+}
+
+.Page__Number__Active {
+  background-color: rgba(20, 71, 204, 0.08);
+  font-weight: 500;
+}

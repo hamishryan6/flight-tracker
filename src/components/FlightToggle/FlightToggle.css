@@ -1,0 +1,31 @@
+.Flight__Toggle {
+    border-radius: 12px;
+    background: #FFF;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 4px;
+}
+
+.Flight__Toggle__Button {
+    display: flex;
+    width: 124px;
+    padding: 12px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #646E85;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.Toggle__Selected {
+    background-color: rgba(20, 71, 204, 0.04);
+    color: #1447CC;
+    font-weight: 500;
+}
+
+.Flight__Toggle__Disabled {
+    opacity: 0.6;
+}

@@ -1,0 +1,125 @@
+.FlightDetails__Main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 960px;
+    width: 100%;
+}
+
+.Back__Button {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: #1D1E1F;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 8px;
+    opacity: 0.6;
+}
+
+.Back__Button:hover {
+    box-sizing: content-box;
+    background-color: rgba(20, 71, 204, 0.04);
+    opacity: 1;
+}
+
+.FlightDetails__Overview {
+    display: grid;
+    grid-template-columns: 88px 1fr 88px;
+    gap: 64px;
+    padding-inline: 24px;
+    align-items: center;
+}
+
+.FlightDetails__Stop {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #93A1C2;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.FlightDetails__Code {
+    color: #1D1E1F;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.Flight__Details__Departure {
+    align-items: start;
+}
+
+.Flight__Details__Arrival {
+    align-items: end;
+}
+
+.FlightDetails__SubInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    position: relative;
+}
+
+.FlightDetails__Flight__Code {
+    color: #646E85;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.FlightDetails__PlaneIcon {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    top: 50%;
+}
+
+hr {
+    height: 2px;
+    background-color: rgba(20, 71, 204, 0.08);
+    width: 100%;
+}
+
+.FlightDetails__SchedulingCard {
+    border-radius: 12px;
+    background: #FFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.FlightDetails__SchedulingHeader {
+    color: #93A1C2;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FlightDetails__SchedulingDetails {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 16px;
+    color: #1D1E1F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.FlightDetails__SchedulingHeader>p {
+    font-weight: 400;
+}
+
+.FlightDetails__SchedulingCard>hr {
+    background-color: #F7F9FA;
+    height: 2px;
+    width: 100%;
+}

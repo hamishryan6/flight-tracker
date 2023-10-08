@@ -1,0 +1,36 @@
+.StatusTag__Main {
+    display: flex;
+    justify-content: start;
+}
+
+.StatusTag__Tag {
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.StatusTag__Scheduled {
+    color: #8F99B2;
+    background-color: rgba(143, 153, 178, 0.12);
+}
+
+.StatusTag__Active {
+    color: #1447CC;
+    background-color: rgba(20, 71, 204, 0.08);
+}
+
+.StatusTag__Landed {
+    color: #31CC6C;
+    background-color: rgba(49, 204, 108, 0.12);
+}
+
+.StatusTag__Cancelled {
+    color: #CC1414;
+    background-color: rgba(204, 20, 20, 0.12);
+}

@@ -1,0 +1,65 @@
+.Flight__Card {
+    display: grid;
+    grid-template-columns: 80px 1fr 80px;
+    gap: 64px;
+    padding: 32px 48px;
+    align-items: center;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.Flight__Card__Departure,
+.Flight__Card__Arrival {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Flight__Card__Departure {
+    align-items: start;
+}
+
+.Flight__Card__Arrival {
+    align-items: end;
+}
+
+h3 {
+    color: #1D1E1F;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+h4 {
+    color: #93A1C2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.Flight__Card__Details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.Flight__Number {
+    color: #646E85;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+hr {
+    height: 2px;
+    background-color: rgba(20, 71, 204, 0.08);
+    width: 100%;
+}
+
+.Flight__SubInfo {
+    color: #93A1C2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+}
